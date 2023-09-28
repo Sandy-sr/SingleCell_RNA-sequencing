@@ -1,8 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[2]:
-
 
 import pandas as pd
 import numpy as np
@@ -56,8 +51,6 @@ score_agglo = silhouette_score(X_train_norm_100, prediction, metric='euclidean')
 
 score_agglo
 
-
-# In[ ]:
 
 
 
